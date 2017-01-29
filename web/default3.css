@@ -1,0 +1,221 @@
+/* 
+    Document   : default3
+    Created on : Apr 13, 2014, 3:55:21 AM
+    Author     : dev jat
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+  }
+
+body {
+	background-color: #E4E4E4;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6995;
+	
+}
+form {
+    color: royalblue;
+    
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+h1, h2, h3 {
+	        color: royalblue;
+
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	text-align: justify;
+	line-height: 1.8em;
+}
+
+p {
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+    color: royalblue;
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+a {
+	text-decoration: none;
+	color: royalblue;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: brown;
+}
+
+img {
+	border: none;
+}
+
+.boxed {
+	margin-bottom: 1.5em;
+	background: url(images/img05.gif) no-repeat right bottom;
+}
+
+.boxed .title {
+	padding-left: 10px;
+}
+
+.boxed .content {
+	padding: 20px;
+	background: url(images/img04.gif) no-repeat;
+}
+
+#logo {
+	position: relative;
+	width: 1000px;
+	height: 55px;
+	margin: 0 auto;
+}
+
+#logo h1 {
+	float: left;
+	padding: 30px 0 0 0;
+	font-size: 2em;
+}
+
+#logo h1 span {
+	font-weight: normal;
+	}
+
+#logo h2 {
+	float: right;
+	padding: 30px 0 0 0;
+	font-size: 1.5em;
+}
+
+#logo h2 span {
+	font-weight: normal;
+}
+
+#logo a {
+	color: #5A82;
+
+}
+
+#splash {
+	width: 1000px;
+	height: 280px;
+	margin: 0 auto;
+	padding: 15px 20px 20px 20px;
+	background: url(images/img02.gif) no-repeat;
+}
+
+#menu {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+        color: brown;
+        font-size: 1.3em;
+}
+
+#menu a:hover {
+    background-color: activeborder;
+}
+
+#content {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+#main {
+	float: right;
+	width: 1000px;
+}
+
+#main .boxed .title {
+	padding-left: 20px;
+	font-weight: normal;
+}
+
+#footer {
+	clear: both;
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+	background-image: url(Images/5_050213114635.jpg);
+}
+
+#footer p,ul,li {
+	margin: 0;
+	font-size: x-small;
+        color: royalblue;
+}
+
+#footerNav{
+    
+    
+}
+#footerNavSection{
+    float: left;
+    width: 225px;
+    
+}
+
+
+#legal {
+}
+
+#links {
+}

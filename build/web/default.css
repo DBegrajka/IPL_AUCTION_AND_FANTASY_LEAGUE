@@ -1,0 +1,282 @@
+* {
+	margin: 0;
+	padding: 0;
+  }
+
+body {
+	background-color: #E4E4E4;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #6995;
+	
+}
+form {
+    color: royalblue;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	display: none;
+}
+
+h1, h2, h3 {
+	        color: royalblue;
+
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, blockquote, ul, ol {
+	margin-bottom: 1.5em;
+	text-align: justify;
+	line-height: 1.8em;
+}
+
+p {
+}
+
+blockquote {
+	margin-left: 3em;
+	margin-right: 3em;
+	font-style: italic;
+}
+
+ul {
+	list-style: none;
+}
+
+ul li {
+    color: royalblue;
+}
+
+ol {
+	margin-left: 3em;
+}
+
+ol li {
+}
+
+a {
+	text-decoration: none;
+	color: royalblue;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: brown;
+}
+
+img {
+	border: none;
+}
+
+.boxed {
+	margin-bottom: 1.5em;
+	background: url(images/img05.gif) no-repeat right bottom;
+}
+
+.boxed .title {
+	padding-left: 10px;
+}
+
+.boxed .content {
+	padding: 20px;
+	background: url(images/img04.gif) no-repeat;
+}
+
+#logo {
+	position: relative;
+	width: 1000px;
+	height: 55px;
+	margin: 0 auto;
+        
+}
+
+#logo h1 {
+	float: left;
+	padding: 30px 0 0 0;
+	font-size: 2em;
+}
+
+#logo h1 span {
+	font-weight: normal;
+	}
+
+#logo h2 {
+	float: right;
+	padding: 30px 0 0 0;
+	font-size: 1.5em;
+}
+
+#logo h2 span {
+	font-weight: normal;
+}
+
+#logo a {
+	color: brown;
+
+}
+
+#splash {
+	width: 1000px;
+	height: 280px;
+	margin: 0 auto;
+	padding: 15px 20px 20px 20px;
+	background: url(images/img02.gif) no-repeat;
+}
+
+#menu {
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	width: 120px;
+	text-align: center;
+	font-weight: bold;
+       color: brown;
+        font-size: 1.3em;
+}
+
+#menu a:hover {
+    background-color: activeborder;
+}
+
+#content {
+	width: 800px;
+	margin: 0 auto;
+
+}
+
+#main {
+	float: right;
+	width: 500px;
+}
+
+#main .boxed .title {
+	padding-left: 20px;
+	font-weight: normal;
+}
+
+#example {
+}
+
+#welcome {
+    
+}
+#sidebar {
+	float: left;
+	width: 120px;
+        margin: 0;
+}
+
+#sidebar .boxed .title {
+	font-size: 1.2em;
+}
+
+#sidebar .boxed .content {
+	padding: 10px;
+}
+
+#login {
+}
+
+#login label {
+	display: block;
+}
+
+#login #inputtext1, #login #inputtext2 {
+	width: 140px;
+	margin-bottom: .5em;
+	padding: 2px 5px;
+	border: 1px solid #CCCCCC;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #999999;
+}
+
+#login #inputsubmit1 {
+	float: right;
+	margin-right: 7px;
+	font: normal x-small "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+#login p {
+	margin: 0;
+	padding-top: .2em;
+	font-size: x-small;
+}
+
+#updates {
+}
+
+#updates ul {
+	margin: 0;
+	list-style: none;
+}
+
+#updates li {
+	margin-bottom: 1em;
+}
+
+#updates h3 {
+	font-size: x-small;
+}
+
+#updates p {
+	font-size: x-small;
+}
+
+#partners {
+
+}
+
+#footer {
+	clear: both;
+	width: 900px;
+	margin: 0 auto;
+	padding: 20px;
+        background-image: url(Images/5_050213114635.jpg);
+}
+
+#footer p,ul,li {
+	margin: 0;
+	font-size: x-small;
+        color: royalblue;
+}
+
+#footerNav{
+    
+    
+}
+#footerNavSection{
+    float: left;
+    width: 225px;
+    
+}
+
+
+#legal {
+}
+
+#links {
+}
